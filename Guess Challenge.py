@@ -6,7 +6,7 @@ def print_slow(t):
     for l in t:
         sys.stdout.write(l)
         sys.stdout.flush()
-        time.sleep(random.random()*0.05)#I'm using a random time multipled by 0.3 in secs.
+        time.sleep(random.random()*0.05)#I'm using a random time multipled by 0.05 in secs.
         
 #This line is to create a kinda pause before moving to the next line        
 from time import sleep 
