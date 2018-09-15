@@ -3,7 +3,7 @@
 
 
 import sys, time, random
-def print_slow(t):# For this part: It's a code I learnt online... I want to print-out my work slowly.
+def print_slow(t):
     for l in t:     
         sys.stdout.write(l)
         sys.stdout.flush()
@@ -39,7 +39,7 @@ while ans not in ("y","n"):
                         from random import randint
                         random_num = (randint(0,100))
                         print_slow("\nGoodluck!\n\n" )
-                        #print(random_num) Please you can remove the '#' symbol to that the computer's choice is.
+                        #print(random_num) Please you can remove the '#' symbol to that the computer's choice.
                         x = None
                         while x != random_num:
                             print_slow("\nPredict the secret number: ")
